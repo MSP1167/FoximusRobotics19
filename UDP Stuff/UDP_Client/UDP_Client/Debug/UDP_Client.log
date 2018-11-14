@@ -1,0 +1,3 @@
+﻿  Main.cpp
+c:\users\marc\documents\visual studio 2017\projects\udp_client\udp_client\main.cpp(10): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  UDP_Client.vcxproj -> C:\Users\Marc\documents\visual studio 2017\Projects\UDP_Client\Debug\UDP_Client.exe

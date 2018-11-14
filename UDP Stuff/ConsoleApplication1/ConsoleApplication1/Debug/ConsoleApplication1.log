@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  pch.cpp
+  ConsoleApplication1.cpp
+c:\users\marc\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(9): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  ConsoleApplication1.vcxproj -> C:\Users\Marc\Documents\Visual Studio 2017\Projects\ConsoleApplication1\Debug\UDP_Server.exe
