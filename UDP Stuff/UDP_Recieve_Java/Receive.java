@@ -30,7 +30,7 @@ public class Receive extends Thread {
               = new String(packet.getData(), 0, packet.getLength());
              
             if (received.equals("end")) {
-                running = false;
+                //running = false;
                 continue;
             }
             socket.send(packet);
