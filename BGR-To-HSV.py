@@ -1,7 +1,7 @@
 import libjevois as jevois
 import cv2
 import numpy as np
-class CompoTest:
+class FirstPython:
     def process(self, inframe, outframe):
       # Get the next camera frame as BGR:
       img = inframe.getCvBGR()
@@ -16,6 +16,6 @@ class CompoTest:
       #Apply the HSV stuff
       mask = cv2.inRange(hsv, lower, upper)
 
-
       # Send off the result:
       outframe.sendCv(mask)
+      
