@@ -1,1 +1,33 @@
-TO BE WORKED ON
+So, You need to update the camera. Great!
+""s mean that it is a link or file in this folder
+
+1. Make sure the newest version of the img is on the camera (1.11.0 as of 1/16/19, check "http://jevois.org/start/software.html" for updates)
+2. If you dont already, dowload a software the can flash an .img file. I use Etcher ("https://www.balena.io/etcher/")
+3. Plug the microsd card ("MicroSD.jpg") into your machine
+4. After, select the img ("Select.png" and "Select1.png")
+5. The drive should already be selected (Most likely D or E), if not, select it
+6. Hit "Flash!" and wait it out. (Etcher will auto eject when done, Etcher also does a scan after flashing, so it will take double the first est time)
+7. Make sure camera is plugged in, wait the ~15 seccond boot time, and enjoy!
+
+Wait, We still need the other files. (This is the tedious stuff)
+
+1. We will be using "BGR-To-HSV.py", "initscipt.cfg", "videomappings.cfg", and "script.cfg". "BGR-To-HSV.py" is the program, "initscipt.cfg" is for convienence on JeVois-Inventor,
+"videomappings.cfg" sets up the correct size/framerate to brodcast, and "script.cfg" sets up the camera settings, such as exposure and gain.
+2. Load up JeVois-Inventor (If you are not using JeVois-Inventor b/c linux, then navigate through the jevois folder that opens up when the microsd is plugged in)
+3. Go to the config tab
+4. Click on the dropdown and select initscript.cfg
+5. In the bottom right, press "load from local"
+6. Select the "initscript.cfg"
+7. Click on the dropdown and select videomappings.cfg
+8. In the bottom right, press "load from local"
+9. Select the "videomappings.cfg"
+10. Click on the dropdown and select script.cfg
+11. In the bottom right, press "load from local"
+12. Select the "script.cfg"
+13. Click on the code tab
+14. In the bottom right, press "load from local"
+15. Select the "BGR-To-HSV.cfg"
+16. In the bottom left, press Save To JeVois, and hit yes twice
+
+
+CONGRATS! ITS NOW UP TO DATE!!!
